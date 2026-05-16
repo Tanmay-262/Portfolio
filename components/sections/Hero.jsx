@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { siteConfig } from "@/data/siteConfig";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Mail, Briefcase } from "lucide-react";
 import { GithubIcon } from "@/components/ui/icons";
 import Link from "next/link";
 
@@ -66,7 +66,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/50 border border-border w-fit"
           >
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-            <span className="text-xs font-medium text-muted-foreground">Available for Internships</span>
+            <span className="text-xs font-medium text-muted-foreground">Available for Jobs & Internships</span>
           </motion.div>
 
           <motion.div
@@ -115,10 +115,12 @@ export function Hero() {
             </a>
 
             <a 
-              href={`mailto:${siteConfig.email}`}
-              className="flex items-center gap-2 px-6 py-3 hover:bg-secondary text-foreground font-medium rounded-lg transition-all"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 bg-primary/10 hover:bg-primary/20 text-primary font-medium rounded-lg border border-primary/20 transition-all"
             >
-              <Mail size={18} /> Contact
+              <Briefcase size={18} /> Hire Me
             </a>
           </motion.div>
 

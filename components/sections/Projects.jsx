@@ -32,13 +32,15 @@ export function Projects() {
       className="flex flex-col group rounded-2xl border border-border bg-card overflow-hidden hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300"
     >
       {/* Image Placeholder or actual Image if exists */}
-      <div className="relative h-48 w-full bg-muted overflow-hidden flex items-center justify-center">
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10" />
-        {/* If we have actual images we can use next/image here */}
-        {/* <Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105 duration-500" /> */}
-        <span className="text-muted-foreground/50 font-mono text-sm z-0">
-          [Image: {project.image}]
-        </span>
+      <div className="relative h-48 w-full bg-zinc-900 overflow-hidden flex items-center justify-center">
+        {project.image && (
+          <Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105 duration-500" />
+        )}
+        {!project.image && (
+          <span className="text-zinc-500 font-mono text-sm z-0">
+            [Image: {project.image}]
+          </span>
+        )}
       </div>
 
       <div className="flex flex-col flex-grow p-6">
