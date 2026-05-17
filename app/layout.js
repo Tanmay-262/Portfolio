@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground min-h-screen font-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground min-h-screen font-sans overflow-x-hidden`}
       >
         <ThemeProvider
           attribute="class"
@@ -50,11 +50,11 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen w-full relative">
+          <div className="min-h-screen w-full relative">
             <Sidebar />
             
             {/* Main Content Area - padded to account for sidebar on desktop and topbar on mobile */}
-            <main className="flex-1 md:ml-64 pt-16 md:pt-0">
+            <main className="md:ml-64 pt-16 md:pt-0">
               <div className="max-w-6xl mx-auto p-6 md:p-12">
                 {children}
               </div>
