@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: "astracv",
+    title: "AstraCV",
+    description: "An AI-powered resume builder and ATS optimization platform that parses resume content, evaluates compatibility scores against target job descriptions, and provides real-time tailored enhancement suggestions. Utilizes Next.js, FastAPI, and Google's Gemini Pro API to generate ATS-compliant, high-conversion resumes, increasing interview callback rates.",
+    tags: ["Next.js", "React", "FastAPI", "Gemini Pro", "Tailwind CSS", "Python"],
+    links: { github: "https://github.com/Tanmay-262/AstraCV", live: "#" },
+    image: "/projects/astracv.png",
+    featured: true,
+  },
+  {
     id: "taxify",
     title: "Taxify",
     description: "AI-powered platform for Chartered Accountants and businesses to automate accounting tasks, resulting in up to 40% reduction in manual effort for balance sheet creation and tax management. Connects users with expert C.A.s enabling real-time collaboration and improving financial reporting efficiency by over 30% through intelligent automation and personalized insights.",
