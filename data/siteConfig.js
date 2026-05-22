@@ -8,6 +8,7 @@ export const siteConfig = {
   social: {
     github: "https://github.com/Tanmay-262",
     linkedin: "https://www.linkedin.com/in/tanmay-jain-0831062a2/",
+    medium: "https://medium.com/@tanmayj262004",
     hackerrank: "#", // Add your HackerRank URL here
   },
   resume: "/resume.pdf", 
