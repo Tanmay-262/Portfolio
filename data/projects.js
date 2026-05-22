@@ -5,7 +5,7 @@ export const projects = [
     description: "An AI-powered resume builder and ATS optimization platform that parses resume content, evaluates compatibility scores against target job descriptions, and provides real-time tailored enhancement suggestions. Utilizes Next.js, FastAPI, and Google's Gemini Pro API to generate ATS-compliant, high-conversion resumes, increasing interview callback rates.",
     tags: ["Next.js", "React", "FastAPI", "Gemini Pro", "Tailwind CSS", "Python"],
     links: { github: "https://github.com/Tanmay-262/AstraCV", live: "#" },
-    image: "/projects/astracv.png",
+    image: "/projects/astracv_new.png",
     featured: true,
   },
   {

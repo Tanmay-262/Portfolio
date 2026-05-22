@@ -11,7 +11,7 @@ export const experience = [
     id: 5,
     title: "SCOP Member",
     company: "IILM University",
-    date: "May 2023 - Present",
+    date: "May 2025 - Present",
     description: "Selected as a core member of the Student Committee for Organizing Placements (SCOP), assisting in campus placement activities, coordinating with recruiters, and supporting students in their placement journey. Collaborate with faculty and industry professionals to streamline placement drives and improve student preparedness.",
     type: "experience"
   },
