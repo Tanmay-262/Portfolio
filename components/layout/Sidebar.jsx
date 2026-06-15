@@ -17,7 +17,8 @@ import {
   Download,
   Menu,
   X,
-  Award
+  Award,
+  ShieldCheck
 } from "lucide-react";
 
 const navItems = [
@@ -26,6 +27,7 @@ const navItems = [
   { name: "Projects", href: "#projects", icon: Briefcase },
   { name: "Experience", href: "#experience", icon: Layers },
   { name: "Skills", href: "#skills", icon: Code },
+  { name: "Badges", href: "#badges", icon: ShieldCheck },
   { name: "Certifications", href: "#certifications", icon: Award },
   { name: "Blog", href: "#blog", icon: FileText },
   { name: "Contact", href: "#contact", icon: Mail },
